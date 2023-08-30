@@ -11,7 +11,8 @@ li{
 }
 a:link{
     text-decoration: none;
-    color: red;
+    color: #2f73b1;
+    font-weight: bold;
 }
 a:hover{
     font-size: 20px;
@@ -209,4 +210,45 @@ form{
 }
 #clothes{
     text-align: center;
+}
+.row1{
+    float: left;
+    width: 100%;
+}
+.row1 img{
+    width: 500px;
+    height: 500px;
+    padding:50px;
+}
+.row2{
+    float: left;
+    padding:5px;
+    width: 100%;
+}
+.row2 img{
+    width: 500px;
+    height: 500px;
+    padding:50px;
+}
+.row3{
+    float: left;
+    padding:5px;
+    width: 100%;
+}
+.row3 img{
+    width: 500px;
+    height: 500px;
+    padding:50px;
+}
+#col1{
+    float:left;
+
+}
+#col2{
+    float: left;
+    pad
+}
+#col3{
+    float: left;
+
 }
