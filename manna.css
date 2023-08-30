@@ -8,11 +8,10 @@ li{
     padding:25px;
     text-align: right;
     font-size: 20px;
-    font-weight:bold
 }
 a:link{
     text-decoration: none;
-    color: rgba(47,115,177,255);
+    color: red;
 }
 a:hover{
     font-size: 20px;
@@ -121,9 +120,25 @@ article{
     text-align:center;
     height: 500px;
 }
+.About{
+    width: 100%;
+    height:420px;
+    /*border:1px solid black;*/
+    text-align:justify;
+
+    
+}
 #ride{
-    width: 20%;
-    float: left;
+    width:50%;
+    text-align:justify;
+    float:left;
+    padding:20px;
+}
+#Motto{
+    width:50%;
+    text-align:justify;
+    float:left;
+    
 }
 #check{
     width: 30%;
@@ -190,5 +205,8 @@ form{
     margin-left: 350px;
 }
 .real{
+    text-align: center;
+}
+#clothes{
     text-align: center;
 }

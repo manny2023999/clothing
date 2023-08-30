@@ -2,190 +2,105 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="manna.css">
     <title>Document</title>
+<style>
+*{
+  box-sizing: border-box;
+}
+ul{
+  list-style-type: none;
+  text-align: center;
+}
+nav{
+  border:1px solid black;
+}
+li{
+  display: inline;
+  padding: 40px;
+}
+article{
+  width:100%;
+}
+article img{
+  width: 550px;
+  height: 550px;
+
+  padding: 16%;
+}
+#left{
+  float: left;
+  width: 31%;
+}
+#Middle{
+  float: left;
+  width: 31%;
+}
+.Right{
+  float: left;
+  width: 31%;
+}
+ a:link{
+  text-decoration: none;
+ }
+ a:hover{
+  color: peachpuff;
+ }
+ #smarties{
+  text-align:center;
+  margin-top:50px;
+ }
+ #main{
+  text-align: center;
+  margin-top: 25px;
+  background-color: gainsboro;
+  display: inline-block;
+  width:100%;
+}
+form{
+  padding: 40px;
+}
+ @media screen and (max-width: 480px) {
+  body {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
 </head>
 <body>
-    <header>
-        <ul>
-            <li><a href="new.html">Home</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="contacter.html">Contacts</a></li>
-        <li>
-        <div id="dropdown">
-            <a href="collection.html">Collections</a>
-            <div id="dropdown_content">
-            <a href="kids.html"> Kids</a>
-            <a href="men.html">Men</a>
-            <a href="women.html">Women</a>
-            </div>
-        </div>
-        </li>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="aboutus.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
     </ul>
-    </header>
-    <nav>
-        <img src="banner.png">
-    </nav>
-    <section>
-        <!-- Slideshow container -->
-<div class="slideshow-container">
-
-    <!-- Full-width images with number and caption text -->
-    <div class="mySlides">
-      <div class="numbertext">1 / 3</div>
-      <img src="Slide1.jpg">
-      <div class="text">Explore clothing choice
-    </div>
-    </div>
-  
-    <div class="mySlides">
-      <div class="numbertext">2 / 3</div>
-      <img src="Slide2.jpg">
-      <div class="text">This month’s trend style
-
-    </div>
-    </div>
-  
-    <div class="mySlides">
-      <div class="numbertext">3 / 3</div>
-      <img src="Slide3.jpg">
-      <div class="text">Explore clothing choice
-    </div>
-    </div>
-  
-    <!-- Next and previous buttons -->
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </nav>
+<div id="smarties">
+  <img src="clever.PNG">
+</div>
+<article>
+  <div id="left">
+   <img src="heart1.png">
   </div>
-  <br>
-  
-  <!-- The dots/circles -->
-  <div style="text-align:center">
-    <span class="dot" onclick="currentSlide(1)"></span>
-    <span class="dot" onclick="currentSlide(2)"></span>
-    <span class="dot" onclick="currentSlide(3)"></span>
+  <div id="Middle">
+   <img src="heart2.png">
   </div>
-    </section>
-    <article>
-        <div id="ride">
-            <h1>Check Out Our Collections</h3>
-        </div>
-        <div id="check">
-            <h1>Way of Giving</h1>
-            <p>Choose a gift from our newly made selections of products</p>
-        </div>
-        <div id="gift">
-            <h1>Personalization</h1>
-            <p>Manna’s personalization offer a wide range of services for customers</p>
-        </div>
-        <div id="fourth">
-            <h1>How we can help you?</h1>
-        </div>
-    </article>
-
-    <footer>
-        <form>
-            <label>Ship to:</label>
-            <select name="country" id="country">
-
-                <option value="Afghanistan">Afghanistan</option>
-                <option value="Albania">Albania</option>
-                <option value="Algeria">Algeria</option>
-                <option value="Andorra">Andorra</option>
-                <option value="Angola">Angola</option>
-                <option value="Antigua and Barbuda">Antigua and Barbuda</option>
-                <option value="Argentina">Argentina</option>
-                <option value="Armenia">Armenia</option>
-                <option value="Australia">Australia</option>
-                <option value="Austria">Austria</option>
-                <option value="Azerbaijan">Azerbaijan</option>
-                <option value="Bahamas">Bahamas</option>
-                <option value="Bahrain">Bahrain</option>
-                <option value="Bangladesh">Bangladesh</option>
-                <option value="Barbados">Barbados</option>
-                <option value="Belarus">Belarus</option>
-                <option value="Belgium">Belgium</option>
-                <option value="Belize">Belize</option>
-                <option value="Benin">Benin</option>
-                <option value="Bhutan">Bhutan</option>
-                <option value="Bolivia">Bolivia</option>
-                <option value="Bosnia and Herzegovina">Bosnia and Herzegovina</option>
-                <option value="Botswana">Botswana</option>
-                <option value="Brazil">Brazil</option>
-                <option value="Brunei">Brunei</option>
-                <option value="Bulgaria">Bulgaria</option>
-                <option value="Burkina Faso">Burkina Faso</option>
-                <option value="Burundi">Burundi</option>
-                <option value="Cabo Verde">Cabo Verde</option>
-                <option value="Cambodia">Cambodia</option>
-                <option value="Cameroon">Cameroon</option>
-                <option value="Canada">Canada</option>
-                <option value="Central African Republic">Central African Republic</option>
-                <option value="Chad">Chad</option>
-                <option value="Chile">Chile</option>
-                <option value="China">China</option>
-                <option value="Colombia">Colombia</option>
-                <option value="Comoros">Comoros</option>
-                <option value="Canada">Canada</option>
-                <option value="Canada">Canada</option>
-                <option value="Costa Rica">Costa Rica</option>
-                <option value="Côte d’Ivoire">Côte d’Ivoire</option>
-                <option value="Croatia">Croatia</option>
-                <option value="Cuba">Cuba</option>
-                <option value="Cyprus">Cyprus</option>
-                <option value="Czech Republic">Czech Republic</option>
-                <option value="Denmark">Denmark</option>
-                <option value="Djibouti">Djibouti</option>
-                <option value="Dominica">Dominica</option>
-                <option value="Dominican Republic">Dominican Republic</option>
-                <option value="East Timor (Timor-Leste)">East Timor (Timor-Leste)</option>
-                <option value="Ecuador">Ecuador</option>
-                <option value="Egypt">Egypt</option>
-                <option value="El Salvador">El Salvador</option>
-                <option value="Equatorial Guinea">Equatorial Guinea</option>
-                <option value="Eritrea">Eritrea</option>
-                <option value="Estonia">Estonia</option>
-                <option value="Eswatini">Eswatini</option>
-                <option value="Ethiopia">Ethiopia</option>
-                <option value="Fiji">Fiji</option>
-                <option value="Finland">Finland</option>
-                <option value="France">France</option>
-                <option value="Gabon">Gabon</option>
-                <option value="Gambia">Gambia</option>
-                <option value="Georgia">Georgia</option>
-                <option value="Germany">Germany</option>
-                <option value="Ghana">Greece</option>
-                <option value="Grenada">Grenada</option>
-                <option value="Guatemala">Guatemala</option>
-                <option value="Guinea">Guinea</option>
-                <option value="Guinea-Bissau">Guinea-Bissau</option>
-            </select>
-        </form>
-        <div id="content">
-         <p>privacy policy &nbsp &nbsp cookies &nbsp &nbsp fashion shows &nbsp &nbsp product care &nbsp &nbsp careers &nbsp &nbsp stores &nbsp &nbsp FAQ's &nbsp &copy; copyright</p>
-        </div>
-    </footer>
-    <script>
-        let slideIndex = 0;
-        showSlides();
-        
-        function showSlides() {
-          let i;
-          let slides = document.getElementsByClassName("mySlides");
-          let dots = document.getElementsByClassName("dot");
-          for (i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";  
-          }
-          slideIndex++;
-          if (slideIndex > slides.length) {slideIndex = 1}    
-          for (i = 0; i < dots.length; i++) {
-            dots[i].className = dots[i].className.replace(" active", "");
-          }
-          slides[slideIndex-1].style.display = "block";  
-          dots[slideIndex-1].className += " active";
-          setTimeout(showSlides, 2000); // Change image every 1 second
-        }
-        </script>
+  <div class="Right">
+   <img src="heart3.png">
+  </div>
+</article>
+<div id="main">
+  <h1>Exclusive Content</h1>
+  <p>Sign up to receive giveaways, healthy tips, FREE downloads, and more!</p>
+<form>
+<input type="text" placeholder="First Name">
+<input type="text" placeholder="Last Name">
+<input type="email" placeholder="Email">
+<button type="submit">Sign Up</button>
+</form>
+</div>
 </body>
 </html>
