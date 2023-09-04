@@ -216,10 +216,10 @@ form{
     width: 100%;
 }
 .row1 img{
-    width: 400px;
-    height: 400px;
+    width: 450px;
+    height: 450px;
     padding:50px;
-    text-align:center;
+    margin-left: 40px;
 }
 .row2{
     float: left;
@@ -227,10 +227,10 @@ form{
     width: 100%;
 }
 .row2 img{
-    width: 400px;
-    height: 400px;
+    width: 450px;
+    height: 450px;
     padding:50px;
-    text-align:center;
+    margin-left: 40px;
 }
 .row3{
     float: left;
@@ -238,10 +238,10 @@ form{
     width: 100%;
 }
 .row3 img{
-    width: 400px;
-    height: 400px;
-    padding:50px;
-    text-align:center;
+    width: 450px;
+    height: 450px;
+    padding: 50px;
+    margin-left: 40px;
 }
 #col1{
     float:left;
