@@ -219,6 +219,7 @@ form{
     width: 400px;
     height: 400px;
     padding:50px;
+    text-align:center;
 }
 .row2{
     float: left;
@@ -229,6 +230,7 @@ form{
     width: 400px;
     height: 400px;
     padding:50px;
+    text-align:center;
 }
 .row3{
     float: left;
@@ -239,6 +241,7 @@ form{
     width: 400px;
     height: 400px;
     padding:50px;
+    text-align:center;
 }
 #col1{
     float:left;
